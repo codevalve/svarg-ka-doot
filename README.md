@@ -1,3 +1,5 @@
-# Strategic Goal Tracking - Executive Summary
+# KaDoot
 
-Making status reporting less of pain and actually useful.
+## Strategic Goal Tracking - Executive Summary
+
+Making status reporting less of a pain and actually useful.
