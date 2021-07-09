@@ -13,11 +13,14 @@ const app = express();
 
 // Middleware
 app.use(morgan('tiny'));
-app.use(express.static(path.join(__dirname, '/public')));
+//app.use(express.static(path.join(__dirname, '/public')));
 
+// View Engine
+app.set('views','./source/views');
+app.set('view engine', 'ejs');
 
 app.get('/',(req,res)=>{
-  res.send('Hello from my app');
+  res.render('index', { title: 'Welcome to KaDoot!' });
 })
 
 app.listen(PORT, ()=>{
