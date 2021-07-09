@@ -1,0 +1,25 @@
+{
+  "name": "svarg-ka-doot",
+  "version": "1.0.0",
+  "description": "## Strategic Goal Tracking - Executive Summary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codevalve/svarg-ka-doot.git"
+  },
+  "author": "John Lovell (CodeValve / DamCoder)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/codevalve/svarg-ka-doot/issues"
+  },
+  "homepage": "https://github.com/codevalve/svarg-ka-doot#readme",
+  "dependencies": {
+    "chalk": "4.1.1",
+    "debug": "^4.3.1",
+    "express": "4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
