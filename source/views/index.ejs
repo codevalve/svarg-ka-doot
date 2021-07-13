@@ -3,5 +3,11 @@
     <h1>
       <%=title%>
     </h1>
+    <ul>
+      <% data.map((i) => {
+        %><li><%=i%></li><%
+      })
+      %>
+    </ul>
   </body>
 </html>

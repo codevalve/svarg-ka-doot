@@ -20,7 +20,7 @@ app.set('views','./source/views');
 app.set('view engine', 'ejs');
 
 app.get('/',(req,res)=>{
-  res.render('index', { title: 'Welcome to KaDoot!' });
+  res.render('index', { title: 'Welcome to KaDoot!', data: ['a','b','c'] });
 })
 
 app.listen(PORT, ()=>{
